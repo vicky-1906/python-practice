@@ -1,0 +1,45 @@
+a="Game Of Thrones"
+
+print(a.endswith("s"))
+
+print(a.startswith("G"))
+
+print(a.swapcase())
+
+print(a.strip())
+
+print(a.split("G"))
+
+# ljust
+
+b="Money Heighst"
+
+x=b.ljust(50)
+
+print(x,"is my fav web series")
+
+# rjust
+
+c="Money Heighst"
+
+y=c.rjust(50)
+
+print(y,"is my fav web series")
+
+# replace
+
+name="vivek"
+
+print(name.replace("vivek","vishal"))
+
+# rindex
+
+v="hey hello everyone"
+
+print(v.rindex("hello"))
+
+# rfind
+
+t="hey hello everyone"
+
+print(t.rfind("hey"))
