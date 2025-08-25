@@ -1,0 +1,31 @@
+a="hello"
+b="hello1906"
+c="1906"
+d="HEllO"
+e=" "
+f="Hello 1906"
+g="1.906"
+
+# is alphanumeric 
+print(a,a.isalnum())
+print(g,g.isalnum())
+
+# is lowercase 
+print(a,a.islower())
+print(c,c.islower())
+
+# is uppercase
+print(a,a.isupper())
+print(f,f.isupper())
+
+# is decimal
+print(a,a.isdecimal())
+print(c,c.isdecimal())
+
+# is space
+print(a,a.isspace())
+print(e,e.isspace())
+
+# is title 
+print(a,a.istitle())
+print(f,f.istitle())
