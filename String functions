@@ -1,0 +1,16 @@
+a = "Hello How A You Buddy"
+
+print(a)
+
+print(len(a))
+
+print(a.count("H"))
+
+print(a.upper())
+
+print(a.lower())
+
+print(a.capitalize())
+
+print(a.index("B"))
+
